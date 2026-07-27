@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bark": {
+      "command": "node",
+      "args": ["-e", "const https = require('https'); const url = 'https://api.day.app/Ewk8BYE4bPxUPRdHUnjTrn/' + encodeURIComponent(process.argv[1]); https.get(url, (res) => { let d = ''; res.on('data', c => d += c); res.on('end', () => console.log(d)); });"],
+      "env": {}
+    }
+  }
+}

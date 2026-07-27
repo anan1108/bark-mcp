@@ -1,0 +1,10 @@
+.env
+node_modules
+enhanced_messages.json
+message_timestamps.json
+enhanced_messages.json*
+*bak*
+.DS_Store
+presets.json
+wake_prompt.txt
+diary/
